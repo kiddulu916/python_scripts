@@ -59,5 +59,4 @@ def main():
     print("Cost of Drone Shipping: ${:.2f}".format(drone_shipping_cost(weight)))
     print("The cheapest method of shipping is {} and it will cost ${:.2f}".format(method, cost))
 
-if __name__ == "__main__":
-    main()
+main()
